@@ -129,42 +129,6 @@ _Légende : ✅ terminé · 🔄 en cours · ⬜ à venir_
 
 ---
 
-## 🚀 Utiliser ce repository
-
-### Cloner le projet
-
-```bash
-git clone https://github.com/votre-username/bootcamp-bi-30jours.git BootcampPowerBi
-cd BootcampPowerBi
-```
-
-### Workflow Git quotidien
-
-```bash
-git status
-git add .
-git commit -m "Jour XX : [thème du jour] - [description]"
-git push
-```
-
-### Ouvrir les rapports
-
-- **Fichiers `.pbix`** : à ouvrir avec Power BI Desktop (Windows)
-- **Fichiers `.twbx`** : à ouvrir avec Tableau Public ou Tableau Desktop
-
-> Si un rapport ne charge pas ses données, vérifiez le chemin du fichier source dans **Transformer les données → Paramètres de la source de données**.
-
----
-
-## 📏 Conventions de travail
-
-- Un dossier par jour, avec les données dans le sous-dossier `Data/`
-- Messages de commit au format : `Jour XX : thème - description`
-- Noms de fichiers sans accents ni caractères spéciaux pour éviter les problèmes d'encodage
-- Dates au format `jj/mm/aaaa` dans les jeux de données, lues avec les paramètres régionaux français
-
----
-
 ## 🔗 Ressources
 
 - Edward Tufte — _The Visual Display of Quantitative Information_
@@ -174,15 +138,3 @@ git push
 - [Git — Documentation](https://git-scm.com/docs)
 
 ---
-
-## 👤 Auteur
-
-**Votre nom et prénom**
-GitHub : [@votre-username](https://github.com/votre-username)
-LinkedIn : _lien optionnel_
-
----
-
-## 📄 Licence
-
-Ce projet est distribué sous licence **MIT** (si vous l'avez choisie lors de la création du repository). Voir le fichier `LICENSE`.
